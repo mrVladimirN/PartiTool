@@ -1,0 +1,36 @@
+{
+  "name": "parti-tool",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/mrVladimirN/PartiTool.git",
+  "author": "mrVladimirN <vladimir.nitu.business@outlook.com>",
+  "description": "CLI tool for managing disk formats",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build:ts": " npm run clean && npm run compile"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.2.0",
+    "commander": "12.1.0",
+    "inquirer": "10.1.8"
+  },
+  "devDependencies": {
+    "@types/commander": "2.12.2",
+    "@types/inquirer": "9.0.7",
+    "@types/node": "22.5.0",
+    "@typescript-eslint/eslint-plugin": "6.13.2",
+    "eslint": "8.55.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "typescript": "5.5.4"
+  },
+  "bin": {
+    "parti-tool": "dist/cli.js"
+  },
+  "license": "MIT"
+}
