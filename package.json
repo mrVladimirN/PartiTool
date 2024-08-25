@@ -10,7 +10,7 @@
     "compile": "tsc -p tsconfig.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build:ts": " npm run clean && npm run compile"
+    "build:ts": "npm run clean && npm run compile"
   },
   "dependencies": {
     "commander": "12.1.0",
