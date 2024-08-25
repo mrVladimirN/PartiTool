@@ -13,7 +13,6 @@
     "build:ts": " npm run clean && npm run compile"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^8.2.0",
     "commander": "12.1.0",
     "inquirer": "10.1.8"
   },
@@ -21,6 +20,7 @@
     "@types/commander": "2.12.2",
     "@types/inquirer": "9.0.7",
     "@types/node": "22.5.0",
+    "@typescript-eslint/parser": "8.2.0",
     "@typescript-eslint/eslint-plugin": "6.13.2",
     "eslint": "8.55.0",
     "eslint-config-airbnb-base": "15.0.0",
